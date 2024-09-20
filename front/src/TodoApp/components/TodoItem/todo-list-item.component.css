@@ -1,0 +1,42 @@
+.listWrapper {
+    margin-top: 10px;
+    padding: 10px 10px 10px 0;
+}
+
+.itemWrapper {
+    display: flex;
+    background-color: #ede7f6;
+    margin-top: 7px;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+ul {
+    padding: 0;
+}
+
+.liWrapper {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+    padding: 5px 15px;
+}
+
+.btnWrapper {
+    display: flex;
+    margin-left: auto;
+}
+
+button {
+    border: none;
+    background-color: inherit;
+    color: #9575cd;
+}
+
+.checkbox {
+    margin-right: 10px;
+}
+

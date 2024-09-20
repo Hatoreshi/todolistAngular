@@ -1,0 +1,22 @@
+form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    width: 70%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+button {
+    width: 20%;
+    background-color: inherit;
+    border:none;
+    border-radius: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #9575cd;
+}

@@ -1,0 +1,13 @@
+.content {
+    margin: 0 auto;
+}
+
+.todoListTitle {
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.main {
+    max-width: 570px;
+    margin-left: 30%;
+}

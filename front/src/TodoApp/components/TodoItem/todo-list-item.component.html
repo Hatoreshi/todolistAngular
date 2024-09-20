@@ -1,0 +1,22 @@
+<div class="listWrapper">
+    <ul>
+        <li class="itemWrapper" *ngFor="let task of tasks$ | async">
+            <div class="liWrapper">
+                <input  
+                    class="checkbox"
+                    type="checkbox" 
+                    [checked]="task.status" 
+                    (change)="onCheckboxChange(task._id, $event)"
+                >
+               {{ task.title }} 
+            </div>
+            <div class="btnWrapper">
+                <button (click)="openDialog(task)">Edit</button>
+                <button (click)="deleteTask(task._id)">Delete</button>
+            </div>
+        </li>
+    </ul>
+
+</div>
+
+
